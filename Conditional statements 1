@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+int ch;
+clrscr();
+printf("Enter any number (1 to 5)");
+scanf("%d",&ch);
+switch(ch)
+{
+case  1:
+printf("Orange, Rs 100");
+break;
+case  2:
+printf("Apple, Rs 120");
+break;
+case  3:
+printf("Watermelon, Rs 140");
+break;
+case  4:
+printf("Lemon, Rs 160");
+break;
+case  5:
+printf("Grapes, Rs 180");
+break;
+default:
+printf("Only enter value 1 to 5");
+}
+getch();
+}
